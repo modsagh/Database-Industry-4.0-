@@ -1,4 +1,4 @@
-# <center>![logo](fig/loga_MoDS.jpg) Laboratory  <br> Database in Industry 4.0</center>
+# <center>![logo](fig/loga_MoDS.jpg) Laboratory Database in Industry 4.0</center>
 
 ![EU_logo](fig/log_eu.jpg) 
 
