@@ -2,8 +2,8 @@
 
 
 
-![EU_logo](fig/log_eu.ai) 
-![logo](fig/loga_MoDS.ai)
+![EU_logo](fig/log_eu.jpg) 
+![logo](fig/loga_MoDS.jpg)
 
 ## Introduction
 
