@@ -1,13 +1,9 @@
-# <center> Laboratory  <br> Database in Industry 4.0</center>
-
-
+# <center>![logo](fig/loga_MoDS.jpg) Laboratory  <br> Database in Industry 4.0</center>
 
 ![EU_logo](fig/log_eu.jpg) 
-![logo](fig/loga_MoDS.jpg)
+
 
 ## Introduction
-
-
 
 The aim of this laboratory is to familiarize participants with database management systems ([DBMS](https://en.wikipedia.org/wiki/Database#Database_management_system)) and the basic principles of their use in Industry 4.0. In these classes, we will use [SQLite](https://www.sqlite.org/index.html)
 
@@ -349,6 +345,6 @@ else:
 - [Uncle Google](https://google.pl) i [auntie Wikipedia](https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna)
 
 
-
+![EU_logo](fig/log_eu.jpg)
 
 
