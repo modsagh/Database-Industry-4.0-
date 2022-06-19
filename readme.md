@@ -2,6 +2,9 @@
 
 
 
+![EU_logo](fig/log_eu.ai) 
+![logo](fig/loga_MoDS.ai)
+
 ## Introduction
 
 
