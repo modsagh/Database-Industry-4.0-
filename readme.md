@@ -187,6 +187,50 @@ for result in results:
 
 The main task of database systems is to collect data for easy processing and analysis. In this part of the workshop, we will present a measurement simulator that we will use in further exercises.
 
+The simulator used in these workshops is very simple and consists of scripts:
+```
+- GenericSensor.py
+- Client.py
+```
+
+GenericSensor.py script is used to run a multi-threaded program that simulates various sensors and their measurements. To run it, enter in the command line:
+
+```
+python GenericSensor.py
+```
+After successful activation, information about the created sensors will be displayed on the command line, for example:
+```
+name: temperature_1,
+        serial_number: 2NixMVxg,
+        ip_address: localhost,
+        port:58080,
+        unit:C,
+        lon:19,
+        lat:22
+name: temperature_2,
+        serial_number: 2VWFjDQW,
+        ip_address: localhost,
+        port:58081,
+        unit:C,
+        lon:19,
+        lat:21
+...
+```
+
+Client.py script is used to read data from sensors. Before starting it, enter the appropriate ports in the __SensorConnection__ from the message above. For example:
+
+```python
+if __name__ == '__main__':
+    temp_1 = SensorConnection(port= 58080)
+    temp_2 = SensorConnection(port= 58081)
+```
+and enter in the console:
+```
+python Client.py
+```
+
+to start client.
+
 ## Creating database in SQLAlchemy 
 
 This part described the process of creating a table in a database with SQLAlchemy based on [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping) methodology.
